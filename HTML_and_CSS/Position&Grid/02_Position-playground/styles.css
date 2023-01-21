@@ -1,0 +1,38 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+
+body {
+    margin: 0;
+}
+
+.viewport:first-child{
+    background-color: cornflowerblue;
+}
+.viewport:nth-child(2){
+    background-color: orangered;
+}
+
+.viewport {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    display: block;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img{
+    width: 100%;
+}
+
+i{
+    position: absolute;
+    bottom: 9px;
+    right: 4px;
+    color: white;
+}
