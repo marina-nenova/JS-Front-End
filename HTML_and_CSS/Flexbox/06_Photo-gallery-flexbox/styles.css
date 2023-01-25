@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+ul,
+li {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 30px;
+}
+
+li {
+  height: 200px;
+  width: 100px;
+  flex: 1 0 28%;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  height: auto;
+  border: 10px solid black;
+  padding: 20px 10px;
+}
