@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(238, 238, 238);
+    /* margin: 0 auto; */
+}
+
+h2{
+    display: inline-block;
+}
+
+.card {
+    background-color: white;
+    /* width: 200px; */
+    border-radius: 8px;
+}
+
+.card img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+footer {
+    border-top: 2px solid black;
+    bottom: 5px;
+}
+
+.card section {
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+/* .masonry > .card {
+    position: relative;
+} */
+
+.masonry {
+    display: grid;
+    width: 59vw;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "title title title"
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img4 img2 img3"
+    "img4 img5 img3"
+    "img4 img5 img6"
+    "img7 img5 img6"
+    "img7 img8 img6"
+    "img7 img8 img6"
+    "img7 img8 ."
+    "img7 . .";
+}
+
+
+.masonry > h2 {
+    grid-area: title;
+}
+
+.masonry > .card:nth-child(1) {
+    grid-area: img1;
+}
+
+.masonry > .card:nth-child(2) {
+    grid-area: img2;
+}
+
+.masonry > .card:nth-child(3) {
+    grid-area: img3;
+}
+
+.masonry > .card:nth-child(4) {
+    grid-area: img4;
+}
+
+.masonry > .card:nth-child(5) {
+    grid-area: img5;
+}
+
+.masonry > .card:nth-child(6) {
+    grid-area: img6;
+}
+
+.masonry > .card:nth-child(7) {
+    grid-area: img7;
+}
+
+.masonry > .card:nth-child(8) {
+    grid-area: img8;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60vw;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.flex > .card {
+    width: 200px;
+    flex-basis: 30%;
+    /* position: relative; */
+    padding: 10px;
+}
+
+.flex h2 {
+    flex-basis: 100%;
+}
