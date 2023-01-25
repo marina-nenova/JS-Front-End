@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.page > header {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+
+.page > header > p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 100px;
+}
+
+main {
+    flex-basis: 70%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    padding: 5px;
+    width: 10%;
+}
+
+
+.first img {
+    float: right;
+    overflow: auto;
+    margin: 0 0 20px 20px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    font-style: italic;
+    float: right;
+    width: 50%;    
+}
+
+blockquote p:nth-child(2) {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.third img {
+    float: left;
+    overflow: auto;
+    margin-right: 20px;
+}
