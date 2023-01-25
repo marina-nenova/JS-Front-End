@@ -1,0 +1,34 @@
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+body header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header > p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
