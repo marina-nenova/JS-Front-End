@@ -46,6 +46,7 @@ span.bold {
   color: var(--clr-primary);
   font-weight: 700;
   text-align: center;
+  font-size: 30px;
 }
 
 .section .title__container .divider {
