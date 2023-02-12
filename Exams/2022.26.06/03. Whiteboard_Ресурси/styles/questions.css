@@ -1,0 +1,41 @@
+#questions {
+    background-color: var(--clr-green);
+    padding: 2rem 6rem;
+}
+
+#questions .q__title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 2rem;
+}
+
+#questions .quest__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 4rem;
+    margin-bottom: 3rem;
+}
+
+#questions .quest__list .question {
+    text-align: center;
+}
+
+#questions .quest__list .question .quest__title{
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+#questions .quest__list .question .quest__answer {
+font-size: 24px;
+line-height: 1.1;
+font-weight: 100;
+}
+
+#questions .more {
+    text-align: center;
+    font-size: 18px;
+}
+
+#questions .more span {
+    font-weight: 800;
+}

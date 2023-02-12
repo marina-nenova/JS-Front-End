@@ -1,0 +1,55 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
+:root {
+  --clr-white: #fff;
+
+  --clr-green: #b2f1dd;
+  --clr-green-dark: #00d08e;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .section .section__title {
+  color: var(--clr-white);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 96px;
+
+}
+
+.section .section__sub-title {
+  color: var( --clr-neutral-500);
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+} */
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}

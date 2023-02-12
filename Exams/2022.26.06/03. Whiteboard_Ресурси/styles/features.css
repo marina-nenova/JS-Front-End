@@ -1,0 +1,74 @@
+#features .features__row {
+    display: flex;
+}
+
+#features .features__row .feat__img {
+    width: 50%;
+}
+
+#features .features__row .feat__info,
+#features .features__row .description {
+    width: 50%;
+}
+
+#features .features__row .description {
+    padding: 2rem 4rem;
+}
+
+#features .features__row .description .desc__title {
+    font-size: 42px;
+    margin-bottom: 0.5rem;
+}
+
+#features .features__row .description .desc__info {
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+
+#features .features__row .description .desc__list .desc__item {
+    display: flex;
+    gap: 2rem;
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#features .features__row .description .desc__list .desc__item .icon {
+    color: var(--clr-green-dark);
+}
+
+#features .features__row .feat__info {
+    padding: 3rem 6rem;
+}
+
+#features .features__row .feat__info .feat__title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#features .features__row .feat__info .feat__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 6rem;
+    margin: 0 auto;
+
+}
+
+.feat__info .feat__list .feat__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feat__info .feat__list .feat__item .feat__icon {
+    margin-bottom: 1rem;
+    height: 122px;
+}
+
+.feat__info .feat__list .feat__item .feat__desc {
+    font-size: 24px;
+    color: var(--clr-green-dark);
+    font-weight: 800;
+}
