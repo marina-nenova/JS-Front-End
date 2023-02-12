@@ -1,0 +1,17 @@
+#who {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+}
+
+#who .title__container .section__title {
+    color: var(--clr-white);
+}
+
+#who .title__container .divider {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--clr-white);
+}
+
+#who .who__desc {
+    font-size: 20px;
+}

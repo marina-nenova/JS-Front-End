@@ -1,0 +1,18 @@
+#about .title__container .divider {
+    margin-bottom: 1.5rem;
+}
+
+
+#about .about__desc {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    color: var(--clr-blue-text);
+
+}
+
+#about .btn.btn__large {
+    display: block;
+    margin: 0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}

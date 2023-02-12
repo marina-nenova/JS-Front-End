@@ -1,0 +1,44 @@
+#signup {
+    position: relative;
+}
+
+#signup .signup__title {
+    color: var(--clr-orange);
+}
+
+#signup .signup__desc {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: var(--clr-gray-text);
+}
+
+#signup .sub {
+    position: relative;
+    bottom: -35px;
+    color: var(--clr-white);
+    padding: 0;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+#signup .sub .sub__row {
+    padding: 1rem 2rem;
+    scale: 1.05;
+    display: flex;
+    justify-content: space-between;
+}
+#signup .sub .sub__row:first-child {
+    background-color: var(--clr-primary);
+}
+
+#signup .sub .sub__row:last-child {
+    background-color: var(--clr-orange);
+}
+
+#signup .sub .sub__row .sub__row__list {
+    margin: 0;
+}
+
+#signup .sub .sub__row .sub__row__list .sub__item {
+    font-size: 20px;
+    padding-right: 12rem;
+}

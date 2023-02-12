@@ -1,0 +1,25 @@
+#lessons .title__container .divider {
+    margin-bottom: 3rem;
+}
+
+#lessons .lessons__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 0.5rem 2rem;
+    padding-bottom: 2rem;
+}
+
+#lessons .lessons__list .lesson {
+    background-color: var(--clr-gray-ul);
+    padding: 0.5rem;
+    border-left: 3px solid var(--clr-primary);
+    font-weight: 900;
+    color: var(--clr-gray-dark);
+}
+
+#lessons .lessons__list .lesson .num {
+    color: var(--clr-primary);
+    
+    margin-right: 1rem;
+}

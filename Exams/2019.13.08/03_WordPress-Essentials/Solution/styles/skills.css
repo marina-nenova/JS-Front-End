@@ -1,0 +1,26 @@
+#skills .title__container .divider {
+    margin-bottom: 2rem;
+}
+#skills .skills__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+#skills .skills__list .skill {
+    display: flex;
+    gap: 1rem ;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+#skills .skills__list .skill .icon {
+color: var(--clr-orange);
+}
+
+#skills .skills__list .skill .skill__desc{
+    color: var(--clr-gray-dark);
+}

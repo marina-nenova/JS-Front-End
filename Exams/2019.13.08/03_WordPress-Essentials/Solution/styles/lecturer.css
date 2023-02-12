@@ -1,0 +1,28 @@
+#lecturer .title__container .divider{
+    margin-bottom: 2rem;
+}
+#lecturer .title__container .section__title {
+    padding-top: 1rem;
+}
+#lecturer .lecturer__info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+#lecturer .lecturer__info .lecturer__img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+#lecturer .lecturer__info .lecturer__desc .lecturer__name {
+    font-size: 32px;
+    color: var(--clr-primary);
+}
+
+#lecturer .lecturer__info .lecturer__desc .lecturer__experience {
+    font-size: 20px;
+    color: var(--clr-gray-text);
+
+}

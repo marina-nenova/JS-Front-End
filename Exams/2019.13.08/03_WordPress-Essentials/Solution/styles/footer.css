@@ -1,0 +1,47 @@
+.footer {
+    background-color: var(--clr-primary);
+    margin-top: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+
+}
+
+.footer .grid__container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.footer .grid__container .about .title,
+.footer .grid__container .educations .title,
+.footer .grid__container .partners .title {
+    font-size: 16px;
+    color: var(--clr-orange);
+    margin-bottom: 1rem;
+}
+.footer .grid__container .foot__list .foot__item {
+    margin-bottom: 0.5rem;
+}
+.footer .grid__container .foot__list .foot__item .foot__link {
+    text-decoration: none;
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+}
+
+.footer .grid__container .social .foot__list {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .grid__container .social .foot__list .foot__item {
+    font-size: 24px;
+}
+
+.footer .grid__container .social .copyright {
+color: var(  --clr-gray-text-nav);
+margin-bottom: 0.5rem;
+font-size: 18px;
+}
