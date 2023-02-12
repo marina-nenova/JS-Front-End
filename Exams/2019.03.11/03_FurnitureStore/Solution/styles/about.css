@@ -1,0 +1,31 @@
+#about {
+    background-color: var(--clr-gray-bg);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem;
+}
+
+#about .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#about .col .img__container {
+    height: 150px;
+    width: 150px;
+    padding: 1.2rem;
+    background-color: var(--clr-body-bg);
+    border-radius: 50%;
+
+}
+#about .col .col__title {
+    color: var(--clr-text-gray-dark);
+}
+
+#about .col .col__desc {
+    color: var(--clr-text-gray);
+    font-size: 20px;
+}

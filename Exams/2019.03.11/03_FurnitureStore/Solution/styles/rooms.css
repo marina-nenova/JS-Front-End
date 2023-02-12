@@ -1,0 +1,18 @@
+#rooms {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+#rooms .room__example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#rooms .room__example .room__name {
+    color: var(--clr-text-gray);
+    font-weight: 400;
+}

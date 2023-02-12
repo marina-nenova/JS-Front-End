@@ -1,0 +1,72 @@
+.footer {
+    max-width: 87vw;
+    margin: 0 auto;
+    
+
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.footer .navigation .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer .navigation .links .nav__item .nav__link {
+    color: var(--clr-text-gray);
+    text-decoration: none;
+    
+}
+
+.footer .navigation .links .nav__item {
+    font-size: 20px;
+}
+.footer .navigation .links .nav__item:first-child {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer .navigation .contacts {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer .navigation .contacts .contact__us {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--clr-text-gray);
+}
+
+.footer .navigation .contacts .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+
+}
+
+.footer .navigation .contacts .call__btn {
+    font-size: 20px;
+    color: var(--clr-text-gray-dark);
+    background-color: var(--clr-gray-bg);
+    border: none;
+    padding: 0.5rem 2rem;
+}
+
+.footer .navigation .contacts .time {
+    color: var(--clr-text-gray);
+    font-size: 20px;
+}
+
+.footer .navigation .contacts .social .social__item .icon {
+    font-size: 40px;
+    color: var(--clr-text-gray-dark);
+}
