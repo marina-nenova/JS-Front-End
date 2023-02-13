@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-bg: #e6e3de;
+  --clr-text: #554938;
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-red-btn: #d74930;
+}
+
+body {
+  font-family: "Gelasio", serif;
+  background-image: url("../Media/background.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: none;
+}
+
+.section {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  color: var(--clr-white);
+  background-color: var(--clr-text);
+  font-family: "Arial", serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}

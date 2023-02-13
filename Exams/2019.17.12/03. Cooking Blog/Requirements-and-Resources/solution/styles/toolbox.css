@@ -1,0 +1,37 @@
+#toolbox {
+  text-align: center;
+  width: 65%;
+}
+
+#toolbox .toolbox__title {
+  background-color: var(--clr-bg);
+  display: inline;
+  text-align: center;
+  font-size: 32px;
+  padding: 0.5rem 3rem;
+  opacity: 0.8;
+}
+
+#toolbox .cards__grid {
+  margin: 1rem 0 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
+}
+
+#toolbox .cards__grid .card {
+  background-color: rgba(230, 227, 222, 0.8);
+}
+
+#toolbox .cards__grid .card .card__text {
+  font-style: italic;
+  font-size: 24px;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+#toolbox .btn {
+  background-color: var(--clr-red-btn);
+  width: 300px;
+  padding: 0.5rem 0;
+}

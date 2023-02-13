@@ -1,0 +1,32 @@
+.footer {
+  background-color: rgba(230, 227, 222, 0.8);
+}
+
+.footer .navigation {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 4rem 0rem;
+  z-index: 2;
+}
+
+.footer .navigation .nav__items {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer .navigation .nav__items .nav__item {
+  font-size: 22px;
+}
+
+.footer .navigation .nav__items .nav__item .nav__link {
+  text-decoration: none;
+  color: var(--clr-text);
+  line-height: 1;
+}
+
+.footer .navigation .nav__items .nav__item:not(:last-child) .nav__link {
+  border-right: 1px solid var(--clr-text);
+  padding-right: 1rem;
+}

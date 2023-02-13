@@ -1,0 +1,55 @@
+.header {
+  background-color: var(--clr-bg);
+}
+
+.header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-text);
+  padding: 1.5rem 4rem 1rem 2rem;
+}
+
+.header .navigation .logo {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.header .navigation .nav__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  gap: 3rem;
+  color: var(--clr-text);
+}
+
+.header .navigation .nav__items .nav__link {
+  text-decoration: none;
+  color: var(--clr-text);
+}
+
+.header .navigation .login {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .navigation .login .nav__btn {
+  color: var(--clr-white);
+  background-color: var(--clr-text);
+  font-family: "Arial", serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+.header .navigation .login .search {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--clr-text);
+}

@@ -1,0 +1,32 @@
+#recipes .recipe__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-bg);
+}
+
+#recipes .recipe__row:first-child {
+  margin-bottom: 4rem;
+}
+
+#recipes .recipe__row .recipe__img {
+  width: 59%;
+}
+
+#recipes .recipe__row .recipe__text {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#recipes .recipe__row .recipe__text .recipe__title {
+  font-size: 44px;
+}
+
+#recipes .recipe__row .recipe__text .recipe__desc {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+#recipes .recipe__row .recipe__text .btn {
+  padding: 0.6rem 1.5rem;
+}
