@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+:root {
+  --clr-btn: #ae3c33;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background-image: url("images/form-background.png");
+  width: 45%;
+  margin: 3rem auto;
+  padding: 3rem;
+  background-size: cover;
+  border-radius: 1.5rem;
+  box-shadow: 12px 9px 9px 5px rgba(86, 86, 86, 0.626);
+}
+
+.card .card__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card .register {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .register label {
+  color: rgb(177, 170, 170);
+  margin-bottom: 0.5rem;
+}
+.card .register input[type="text"],
+.card .register input[type="email"],
+.card .register input[type="password"] {
+  height: 2.5rem;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  width: 100%;
+}
+
+.card .register .inline {
+  display: flex;
+  gap: 1rem;
+}
+
+.card .register .inline .name label {
+  margin-bottom: 0.5rem;
+}
+.card .register .check {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card .register .check label {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.card .register .register__btn {
+  background-color: var(--clr-btn);
+  border: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0.6rem 2rem;
+}
