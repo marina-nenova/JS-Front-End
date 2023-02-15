@@ -1,0 +1,147 @@
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  header div {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+      url("../image/dancing-girl.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 9em 0 9em 3em;
+  }
+
+  .trainings {
+    flex-direction: column;
+  }
+
+  .trainings div {
+    width: 64%;
+  }
+
+  .instructors > p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .instructors-pic {
+    justify-content: center;
+  }
+
+  .classes li {
+    width: 45%;
+  }
+
+  .classes li > p {
+    font-size: 50px;
+  }
+
+  .classes li div h3 {
+    font-size: 22px;
+  }
+
+  .classes li div p {
+    font-size: 14px;
+  }
+
+  .getInTouch {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .form {
+    flex: 0 1 auto;
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+    flex: 0 1 auto;
+    padding-bottom: 3rem;
+  }
+
+  .getInTouch form {
+    width: 90%;
+  }
+
+  .getInTouch form input {
+    width: 70%;
+  }
+
+  .getInTouch textarea {
+    width: 70%;
+  }
+
+  .site-footer .wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 3rem;
+  }
+
+  .site-footer .about {
+    flex: 0 1 auto;
+    width: 100%;
+  }
+
+  .about > p {
+    font-size: 12px;
+  }
+
+  .site-footer .sitemap {
+    flex: 0 1 auto;
+    width: 40%;
+  }
+
+  .site-footer .contacts {
+    flex: 0 1 auto;
+    width: 40%;
+  }
+
+  .contacts h3,
+  .sitemap h3 {
+    padding-bottom: 2.2rem;
+  }
+
+  .site-footer .sitemap ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .site-footer .sitemap li {
+    display: block;
+    list-style: none outside;
+    flex: 0 0 60%;
+  }
+
+  .site-footer .sitemap li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .site-footer .contacts li {
+    display: block;
+    list-style: none outside;
+    flex: 0 0 50%;
+    line-height: 1.2;
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .site-footer .contacts li i {
+    display: inline-block;
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    width: 1.7rem;
+    text-align: center;
+  }
+}
