@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-gold: #b48d24;
+  --clr-orange: #f9a504;
+  --clr-text: #4d556a;
+}
+
+body {
+  background-color: var(--clr-white);
+  font-family: Helvetica, sans-serif;
+}
+
+.section {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}

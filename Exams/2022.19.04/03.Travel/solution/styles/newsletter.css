@@ -1,0 +1,26 @@
+#newsletter {
+  background-color: var(--clr-gold);
+  color: var(--clr-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1.5rem 2rem;
+}
+
+#newsletter .btn {
+  color: var(--clr-white);
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  border: 4px solid var(--clr-white);
+  cursor: pointer;
+}
+
+#newsletter .subscribe .subscribe__title {
+  margin-bottom: 0.5rem;
+}
+
+#newsletter .subscribe .subscribe__desc {
+  font-size: 20px;
+}
