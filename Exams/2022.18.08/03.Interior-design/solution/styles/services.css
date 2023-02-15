@@ -1,0 +1,119 @@
+#services {
+  display: flex;
+}
+
+#services .services {
+  flex-basis: 70%;
+  background-color: var(--clr-bg);
+}
+
+#services .services .our__sevices {
+  padding: 4rem 7rem;
+}
+
+#services .services .our__sevices .our__services__title {
+  text-transform: uppercase;
+  font-size: 46px;
+  margin-bottom: 2rem;
+}
+
+#services .services .our__sevices .service {
+  margin-bottom: 2rem;
+}
+
+#services .services .our__sevices .service .icon {
+  display: inline;
+  font-size: 20px;
+  margin-right: 0.5rem;
+}
+
+#services .services .our__sevices .service .service__desc {
+  display: inline;
+  font-size: 24px;
+}
+
+#services .services .our__sevices .service .service__desc .bold {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#services .services .contacts .contacts__title {
+  text-transform: uppercase;
+  font-size: 46px;
+  padding-left: 6rem;
+}
+
+#services .services .contacts hr {
+  background-color: none;
+  border: none;
+  border-bottom: 3px solid rgba(38, 26, 26, 1);
+}
+
+#services .services .contacts .contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 6rem;
+  gap: 1rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#services .services .contacts .contacts__list .contacts__item {
+  font-size: 24px;
+}
+
+#services .services .contacts .contacts__list .contacts__item .bold {
+  font-weight: 700;
+  font-style: italic;
+}
+
+#services .services .contacts .contact__form {
+  padding-left: 6rem;
+  padding-bottom: 2rem;
+}
+
+#services .services .contacts .contact__form input {
+  width: 400px;
+  height: 50px;
+  background-color: var(--clr-bg-input);
+  color: var(--clr-white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  margin-right: 1rem;
+}
+
+#services .services .contacts .contact__form .btn {
+  height: 50px;
+  background-color: var(--clr-btn);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  color: var(--clr-white);
+  cursor: pointer;
+}
+
+#services .counts {
+  background-color: var(--clr-bg-aside);
+  flex-basis: 30%;
+}
+
+#services .counts {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: start;
+  padding: 3rem 2rem;
+  justify-content: center;
+}
+
+#services .counts .counts__item .number {
+  color: var(--clr-white);
+  font-size: 100px;
+  font-weight: 100;
+}
+
+#services .counts .counts__item .number__desc {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0;
+}
