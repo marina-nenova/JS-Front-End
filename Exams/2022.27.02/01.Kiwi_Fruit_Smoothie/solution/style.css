@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --clr-green: #008000;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+.recipe {
+  width: 60%;
+  margin: 50px auto;
+  background-image: url("image/image1.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border: 1px solid gray;
+
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.52);
+}
+
+.recipe .recipe__instructions {
+  width: 50%;
+  padding: 2rem 1.5rem;
+}
+
+.recipe .recipe__img {
+  width: 50%;
+  padding: 2rem 1.5rem 2rem 0;
+}
+
+.recipe .recipe__instructions .recipe__title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.recipe .recipe__instructions hr {
+  border: none;
+  border-bottom: 1px solid var(--clr-green);
+}
+
+.recipe .recipe__instructions .recipe__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe .recipe__instructions .recipe__info .info__data {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.recipe .recipe__instructions .ingredients {
+  margin-bottom: 2rem;
+}
+
+.recipe .recipe__instructions .ingredients .ingredient__item {
+  font-size: 18px;
+}
+
+.recipe .recipe__instructions .ingredients .ingredient__item .bold {
+  font-weight: 700;
+  color: var(--clr-green);
+}
+
+.recipe .recipe__instructions .recipe__desc {
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+
+.recipe .recipe__instructions .data {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.recipe .recipe__instructions .data tr td {
+  border: 1px solid var(--clr-green);
+  margin: 0;
+  text-align: center;
+}
+
+.recipe .recipe__instructions .data tr:first-child td {
+  font-weight: 700;
+}
