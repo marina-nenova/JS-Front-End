@@ -1,0 +1,10 @@
+#copyright {
+  background-color: var(--clr-copyright);
+  color: var(--clr-white);
+  padding: 1rem;
+  font-size: 13px;
+}
+
+#copyright .bold {
+  color: var(--clr-blue-btn);
+}

@@ -1,0 +1,25 @@
+#welcome {
+  background-color: var(--clr-white);
+}
+
+#welcome .divider {
+  background-color: var(--clr-blue);
+  margin-bottom: 1rem;
+}
+
+#welcome .welcome__text {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#welcome .welcome__btn {
+  background-color: var(--clr-gray-btn);
+  color: var(--clr-white);
+  font-size: 19px;
+  color: var(--clr-white);
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
