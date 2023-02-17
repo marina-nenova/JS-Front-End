@@ -1,0 +1,80 @@
+#footer {
+  text-align: center;
+  padding: 4rem;
+}
+
+#footer .footer__title {
+  margin-bottom: 2rem;
+}
+
+#footer .footer__desc {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 2rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+
+#footer .message__form {
+  margin: 0 auto;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#footer .message__form .form__row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+#footer .message__form input,
+#footer .message__form textarea {
+  background-color: transparent;
+  border: 1px solid var(--clr-black);
+  color: var(--clr-black);
+}
+
+#footer .message__form input::placeholder,
+#footer .message__form textarea::placeholder {
+  color: var(--clr-black);
+  font-size: 20px;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+#footer .message__form input {
+  height: 56px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+#footer .message__form textarea {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+#footer .message__form .btn {
+  width: 100%;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 9rem;
+  cursor: pointer;
+}
+
+#footer .copyright {
+  font-weight: 500;
+  font-size: 16px;
+}

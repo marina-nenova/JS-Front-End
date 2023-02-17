@@ -1,0 +1,18 @@
+#album {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#album .album__img {
+  width: 30%;
+}
+
+#album .album__img.large {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,5 @@
+#image {
+  background-image: url("../images/thumb-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
