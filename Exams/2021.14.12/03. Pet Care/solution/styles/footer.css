@@ -1,0 +1,35 @@
+.footer {
+  width: 65%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+.footer .title {
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+
+.footer .link__items .link__item {
+  margin-bottom: 1rem;
+}
+
+.footer .link__items .link__item .link {
+  text-decoration: none;
+  color: var(--clt-text-gray);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.footer .address .logo {
+  margin-bottom: 2rem;
+}
+
+.footer .address .address__info {
+  font-size: 20px;
+  color: var(--clt-text-gray);
+  font-weight: 600;
+}

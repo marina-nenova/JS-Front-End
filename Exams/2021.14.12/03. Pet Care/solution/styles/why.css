@@ -1,0 +1,37 @@
+#why {
+  background-image: url("../../images/cats-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  text-align: center;
+  color: var(--clr-white);
+  padding: 10rem 0;
+}
+
+#why .why__title {
+  font-size: 54px;
+  margin-bottom: 3rem;
+}
+
+#why .why__desc {
+  font-size: 28px;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+#why .button__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#why .button__wrapper .phone {
+  font-size: 22px;
+}
+
+#why .button__wrapper .phone .bold {
+  font-weight: 600;
+  letter-spacing: 1px;
+}

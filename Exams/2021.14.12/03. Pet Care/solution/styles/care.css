@@ -1,0 +1,31 @@
+#care {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#care .care__text {
+  width: 45%;
+}
+
+#care .care__text .care__title {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+#care .care__text .care__subtitle {
+  font-size: 56px;
+  margin-bottom: 3rem;
+}
+
+#care .care__text .care__desc {
+  color: var(--clr-text-gray);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+#care .care__text .care__btn {
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+}

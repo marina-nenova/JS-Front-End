@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--clr-white);
+  padding: 2rem 0;
+}
+
+.header .navigation {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .navigation .nav__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  color: var(--clr-black);
+}
+
+.header .navigation .nav__items .nav__item .nav__link {
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 20px;
+  font-weight: 600;
+}

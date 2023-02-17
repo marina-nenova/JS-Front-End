@@ -1,0 +1,65 @@
+#services {
+  text-align: center;
+  padding: 16rem 0;
+}
+
+#services .service__title {
+  font-size: 58px;
+  margin-bottom: 0.8rem;
+}
+
+#services .service__subtitle {
+  color: var(--clt-text-gray);
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+#services .services__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+#services .services__list .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--clr-red);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+
+#services .services__list .service .img__wrapper {
+  position: relative;
+  background-image: url("../../images/service-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 2rem;
+}
+
+#services .services__list .service .img__wrapper .service__img {
+  position: absolute;
+  scale: 1.1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#services .services__list .service .service__name {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  color: var(--clr-black);
+}
+
+#services .services__list .service .service__desc {
+  color: var(--clt-text-gray);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
