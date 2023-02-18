@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --clr-blue-bg: #e3f3fd;
+    --clr-blue-text: #44a9f8;
+    --clr-gray-text: #929292;
+    --clr-gray-title: #596777;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--clr-gray-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pricing {
+    width: 86%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    
+}
+
+#pricing .included {
+    background-color: var(--clr-blue-bg);
+    border-radius: 8px;
+    padding: 3rem 2.5rem;
+}
+
+#pricing .included .title {
+    color: var(--clr-gray-title);
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#pricing .included .included__list .included__item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#pricing .included .included__list .included__item .icon {
+    color: var(--clr-blue-text);
+}
+
+
+#pricing .price {
+    border: 6px solid var(--clr-blue-text);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    
+}
+
+#pricing .price .price__info {
+    font-size: 32px;
+    margin-bottom: 2.5rem;
+}
+#pricing .price .price__info .price__num {
+    color: var(--clr-blue-text);
+    font-size:64px;
+    font-weight: 600;
+}
+
+#pricing .price .price__desc {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#pricing .price .btn {
+    background-color: var(--clr-blue-text);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 0.75rem 4rem;
+    border-radius: 8px;
+}

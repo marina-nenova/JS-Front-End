@@ -61,6 +61,7 @@
   height: 100px;
   width: 100%;
   margin-bottom: 1.5rem;
+  resize: none;
 }
 
 #footer .message__form .btn {
