@@ -1,0 +1,23 @@
+#diploma .diploma__title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+#diploma .diploma__text {
+  background-color: var(--clr-gray-bg);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#diploma .diploma__text .diploma__desc {
+  font-size: 21px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+#diploma .diploma__info {
+  font-size: 21px;
+  font-weight: 500;
+}

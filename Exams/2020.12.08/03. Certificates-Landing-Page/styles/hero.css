@@ -1,0 +1,73 @@
+#hero {
+  height: 650px;
+  overflow: hidden;
+  padding: 6rem 10rem;
+}
+
+#hero::after {
+  background-image: url("../images/hero-certificates.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  opacity: 0.1;
+  background-position: 50% 0;
+}
+
+#hero .hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+#hero .hero__wrapper .hero__text {
+  width: 60%;
+  color: var(--clr-white);
+  background-color: var(--clr-dark-blue-bg);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 1;
+}
+
+#hero .hero__wrapper .hero__text .hero__title {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+#hero .hero__wrapper .hero__text .hero__desc {
+  font-size: 22px;
+}
+
+#hero .hero__wrapper .hero__text .hero__desc:last-child {
+  padding-bottom: 2rem;
+}
+
+#hero .hero__wrapper .hero__images {
+  width: 35%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#hero .hero__wrapper .hero__images .hero__img.small {
+  width: 40%;
+}
+
+#hero .hero__wrapper .hero__images .hero__img {
+  width: 45%;
+  z-index: 1;
+}
+
+#hero .hero__info {
+  font-size: 22px;
+  font-style: italic;
+}

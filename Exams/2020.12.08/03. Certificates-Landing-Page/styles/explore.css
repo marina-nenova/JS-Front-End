@@ -1,0 +1,75 @@
+#explore {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#explore::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+#explore .explore__img {
+  width: 100%;
+}
+
+#explore .explore__text {
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-white);
+}
+
+#explore .explore__text .explore__title {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#explore .explore__text .explore__desc {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+#explore .explore__text .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#explore .explore__text .buttons .btn {
+  color: var(--clr-white);
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0.75rem 4rem;
+  border: 2px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#explore .explore__text .buttons .btn.primary {
+  padding: 0.75rem 3rem;
+  color: var(--clr-blue);
+  background-color: var(--clr-white);
+  border-color: var(--clr-white);
+}
+
+#explore .explore__text .buttons .divider {
+  width: 2px;
+  height: 3rem;
+  background-color: var(--clr-white);
+}
