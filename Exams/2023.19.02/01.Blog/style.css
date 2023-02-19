@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+:root {
+  --clr-bg: #f6e0b5;
+  --clr-card: #65535d;
+  --clr-text: #62515e;
+  --clr-white: #ffffff;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: black;
+}
+
+.cards {
+  width: 65%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  padding: 3rem;
+  background-color: var(--clr-bg);
+}
+
+.cards .catogories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+  width: 75%;
+}
+
+.cards .catogories .cat__item {
+  background-color: var(--clr-card);
+  color: var(--clr-white);
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 16px 8px 93px -4px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 16px 8px 93px -4px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 16px 8px 93px -4px rgba(0, 0, 0, 0.76);
+}
+
+.cards .catogories .cat__item .cat__img {
+  height: 200px;
+  width: 100%;
+}
+
+.cards .catogories .cat__item .cat__title {
+  font-size: 22px;
+  padding: 0.5rem;
+  font-weight: 400;
+}
+
+.cards .other {
+  color: var(--clr-text);
+}
+
+.cards .other .other__item {
+  margin-bottom: 0.75rem;
+}
+
+.cards .other .other__item i {
+  font-size: 22px;
+  font-weight: 600;
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.cards .other .other__item .other__desc {
+  display: inline;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cards .other .other__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}

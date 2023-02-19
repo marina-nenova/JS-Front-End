@@ -1,0 +1,59 @@
+#places {
+  width: 65%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+#places .places__sub {
+  color: var(--clr-gray-text);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#places .places__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+#places .places__list .place {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  overflow: hidden;
+}
+
+#places .places__list .place .place__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.place .place__info {
+  padding: 1rem 2rem;
+}
+
+.place .place__info .place__name {
+  margin-bottom: 1rem;
+}
+
+.place .place__info .place__desc {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: var(--clr-gray-text);
+}
+
+.place .place__info .discover__btn {
+  background-color: transparent;
+  color: var(--clr-black);
+  border: 1px solid var(--clr-btn);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 1rem 2rem;
+}

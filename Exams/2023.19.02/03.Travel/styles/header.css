@@ -1,0 +1,38 @@
+#header {
+  background-image: url("../images/landing-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-position-y: 40%;
+}
+
+#header .navigation {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 2rem 0;
+}
+
+#header .navigation .site__name {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#header .navigation .nav__items {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .navigation .nav__items .nav__item .nav__link {
+  font-size: 21px;
+  color: var(--clr-gray-text);
+  text-decoration: none;
+  font-weight: 500;
+}
