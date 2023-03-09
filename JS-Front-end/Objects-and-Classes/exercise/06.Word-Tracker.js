@@ -2,17 +2,14 @@ function wordsTracker(wordsArr) {
   let searchedWords = wordsArr.shift().split(" ");
   let result = {};
   for (const searchedWord of searchedWords) {
-    result[searchedWord] = 0;
+    let occurances = result[searchedWord] = wordsArr.filter((w) => w === searchedWord).length;
+    result[searchedWord] = occurances;
   }
-
-  for (const word of wordsArr) {
-    if (word in result) {
-      result[word]++;
-    }
-  }
-  const sorted = Object.fromEntries(
+  
+    const sorted = Object.fromEntries(
     Object.entries(result).sort(([, a], [, b]) => b - a)
   );
+  
   for (const [word, count] of Object.entries(sorted)) {
     console.log(`${word} - ${count}`);
   }
