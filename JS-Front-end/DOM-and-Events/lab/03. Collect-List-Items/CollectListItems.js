@@ -4,5 +4,4 @@ function extractText() {
     let itemsArr = Array.from(items);
 
     resultElement.value = itemsArr.map((e) => e.textContent).join('\n');
-
 }
