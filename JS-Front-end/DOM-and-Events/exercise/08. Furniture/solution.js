@@ -1,5 +1,5 @@
 function solve() {
-  let tableBody = document.querySelector('tbody');
+  let tableBody = document.querySelector("tbody");
   let [generateBtn, buyBtn] = document.getElementsByTagName("button");
 
   generateBtn.addEventListener("click", generate);
@@ -52,25 +52,26 @@ function solve() {
     let textOutput = e.currentTarget.previousElementSibling;
 
     let checkboxes = Array.from(
-      document.querySelectorAll('input[type="checkbox"]'))
-      .filter((cb) => cb.checked);
+      document.querySelectorAll('input[type="checkbox"]')
+    ).filter((cb) => cb.checked);
 
-      let bought = [];
-      let totalPrice = 0;
-      let totalDecFactor = 0;
+    let bought = [];
+    let totalPrice = 0;
+    let totalDecFactor = 0;
 
-      for (const checkbox of checkboxes) {
-        let [name, price, decFactor] = checkbox.parentNode.parentNode.getElementsByTagName('p');
-        
-        bought.push(name.textContent);
-        totalPrice += Number(price.textContent);
-        totalDecFactor += Number(decFactor.textContent);
-      }
+    for (const checkbox of checkboxes) {
+      let [name, price, decFactor] =
+        checkbox.parentNode.parentNode.getElementsByTagName("p");
 
-      let averageDecFactor = (totalDecFactor / bought.length) || 0;
+      bought.push(name.textContent);
+      totalPrice += Number(price.textContent);
+      totalDecFactor += Number(decFactor.textContent);
+    }
 
-      textOutput.value =
-      `Bought furniture: ${bought.join(', ')}\n` +
+    let averageDecFactor = totalDecFactor / bought.length || 0;
+
+    textOutput.value =
+      `Bought furniture: ${bought.join(", ")}\n` +
       `Total price: ${totalPrice.toFixed(2)}\n` +
       `Average decoration factor: ${averageDecFactor}`;
   }
