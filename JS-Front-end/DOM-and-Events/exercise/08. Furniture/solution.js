@@ -5,13 +5,12 @@ function solve() {
   generateBtn.addEventListener("click", generate);
   buyBtn.addEventListener("click", buy);
 
-  let inputElement = document.querySelector("#exercise > textarea");
-  console.log(inputElement.value);
 
   function generate(e) {
     let textInput = e.currentTarget.previousElementSibling;
-
-    for (const furniture of JSON.parse(textInput.value)) {
+    let inputText = JSON.parse(textInput.value);
+    
+    for (const furniture of inputText) {
       const row = document.createElement("tr");
 
       let imageData = document.createElement("td");
