@@ -19,6 +19,9 @@ function attachEvents() {
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(data),
       });
+
+      nameInput.value = '';
+      contentInput.value = '';
     }
   }
 
